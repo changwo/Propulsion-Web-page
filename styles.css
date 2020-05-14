@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0; 
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+.grey {
+    background-color: #f2f2f2;
+}
+
+li, main, footer, aside, .header, .right, .header_description{
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/************** TOP **************/
+.header {
+    background-color: #03BAE4;
+    color: white;
+}
+
+.header_description {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 30px 0 30px 0;
+}
+
+div h1 {
+    margin-top: 0;
+}
+
+
+
+/************** SIDE  **************/
+.aside-wrapper {
+    width: 40px;
+    height: 97%
+}
+
+aside {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    background-color: #f2f2f2;
+}
+
+/************** MAIN  ***********/
+
+main {
+    height: inherit;
+}
+
+.content {
+    width: 100%;
+}
+
+
+/************** COURSES  ***********/
+
+button {
+    outline: none;
+}
+
+li {
+    justify-content: space-around;
+    align-items: center;
+}
+
+li p {
+    width: 190px;
+}
+
+button {
+    background-color: #F37786;
+    border: none;
+    border-radius: 1cm;
+    height: 30px;
+    width: 100px;
+    color: white;
+    
+}
+
+.courses_list {
+    padding-left: 10px;
+}
+
+/************** BOTTOM  ***********/
+
+footer {
+    justify-content: space-evenly;
+    background-color: #F37786;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+
+.left{
+
+}
+
+.right {
+    align-items: center;
+    width: 60%;
+    justify-content: space-around;
